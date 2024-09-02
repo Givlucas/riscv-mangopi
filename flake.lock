@@ -1,0 +1,95 @@
+{
+  "nodes": {
+    "nixos-sun20iw1p1": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1666345896,
+        "narHash": "sha256-SmNzJEdyeoeqmD8jof9cWl1LBtlEFiyR0sFgO3XepAs=",
+        "ref": "refs/heads/master",
+        "rev": "995613e861686f7c58184aea5d48efc9d1cc666f",
+        "revCount": 22,
+        "type": "git",
+        "url": "file:///home/lucas/Documents/code/nixos-sun20iw1p1"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/lucas/Documents/code/nixos-sun20iw1p1"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1665732960,
+        "narHash": "sha256-WBZ+uSHKFyjvd0w4inbm0cNExYTn8lpYFcHEes8tmec=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4428e23312933a196724da2df7ab78eb5e67a88e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1665732960,
+        "narHash": "sha256-WBZ+uSHKFyjvd0w4inbm0cNExYTn8lpYFcHEes8tmec=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4428e23312933a196724da2df7ab78eb5e67a88e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1720535198,
+        "narHash": "sha256-zwVvxrdIzralnSbcpghA92tWu2DV2lwv89xZc8MTrbg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "205fd4226592cc83fd4c0885a3e4c9c400efabb5",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-23.11",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixos-sun20iw1p1": "nixos-sun20iw1p1",
+        "nixpkgs": "nixpkgs_2",
+        "rust-gps": "rust-gps"
+      }
+    },
+    "rust-gps": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "dirtyRev": "3153f260e330069c017929e9e111d7921619a42b-dirty",
+        "dirtyShortRev": "3153f26-dirty",
+        "lastModified": 1724197410,
+        "narHash": "sha256-ucufKTVO3YRp6wmHrJluRKt+loizPxVUb1nclsEToJI=",
+        "type": "git",
+        "url": "file:///home/lucas/Documents/code/gps"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/lucas/Documents/code/gps"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
