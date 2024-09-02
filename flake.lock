@@ -7,15 +7,15 @@
       "locked": {
         "lastModified": 1666345896,
         "narHash": "sha256-SmNzJEdyeoeqmD8jof9cWl1LBtlEFiyR0sFgO3XepAs=",
-        "ref": "refs/heads/master",
+        "owner": "chuangzhu",
+        "repo": "nixos-sun20iw1p1",
         "rev": "995613e861686f7c58184aea5d48efc9d1cc666f",
-        "revCount": 22,
-        "type": "git",
-        "url": "file:///home/lucas/Documents/code/nixos-sun20iw1p1"
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/lucas/Documents/code/nixos-sun20iw1p1"
+        "owner": "chuangzhu",
+        "repo": "nixos-sun20iw1p1",
+        "type": "github"
       }
     },
     "nixpkgs": {
@@ -77,16 +77,17 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "dirtyRev": "3153f260e330069c017929e9e111d7921619a42b-dirty",
-        "dirtyShortRev": "3153f26-dirty",
-        "lastModified": 1724197410,
-        "narHash": "sha256-ucufKTVO3YRp6wmHrJluRKt+loizPxVUb1nclsEToJI=",
-        "type": "git",
-        "url": "file:///home/lucas/Documents/code/gps"
+        "lastModified": 1724973480,
+        "narHash": "sha256-W0sIbaCH/sbYIZIGxznB93Y96gQs3dTeP12IIVSQKX0=",
+        "owner": "Givlucas",
+        "repo": "rust-gps",
+        "rev": "725eb0a3d88efc5df60045b29f7871cce27afaf9",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/lucas/Documents/code/gps"
+        "owner": "Givlucas",
+        "repo": "rust-gps",
+        "type": "github"
       }
     }
   },
