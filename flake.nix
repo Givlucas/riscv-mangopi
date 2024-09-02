@@ -2,8 +2,8 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixos-sun20iw1p1.url = "/home/lucas/Documents/code/nixos-sun20iw1p1";
-    rust-gps.url = "/home/lucas/Documents/code/gps/";
+    nixos-sun20iw1p1.url = "github:chuangzhu/nixos-sun20iw1p1";
+    rust-gps.url = "github:Givlucas/rust-gps";
   };
   
   outputs = { self, nixpkgs, nixos-sun20iw1p1, rust-gps }@inputs: {
